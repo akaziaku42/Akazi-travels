@@ -1,0 +1,1 @@
+console.log("Akazi Travels Loaded Successfully!");
