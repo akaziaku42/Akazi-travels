@@ -195,3 +195,9 @@ button{
 .service-card h3 {
     color: #f57c00;
 }
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
