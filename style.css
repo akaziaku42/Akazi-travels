@@ -195,16 +195,22 @@ button{
 .service-card h3 {
     color: #f57c00;
 }
-.whatsapp-btn {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    background: #25D366;
-    color: white;
-    padding: 15px 22px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    z-index: 9999;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+.whatsapp-btn{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    padding:16px 25px;
+    border-radius:40px;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+    z-index:9999;
+    box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+
+.whatsapp-btn:hover{
+    transform:scale(1.05);
 }
